@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: wateen
+  name: wateenfront
 spec:
   project: default
   source:
@@ -12,5 +12,5 @@ spec:
       valueFiles:
       - frontend/values.yaml
   destination:
-    server: 'https://kubernetes.default.svc'
-    namespace: 'default'
+    server: https://kubernetes.default.svc
+    namespace: default
