@@ -6,7 +6,7 @@ spec:
   project: default
   source:
     repoURL: 'https://github.com/Ahmadshen/argocd'
-    path: 'path/to/helm/chart'  # This should be a relative path
+    path: frontend/  # This should be a relative path
     targetRevision: HEAD
     helm:
       valueFiles:

@@ -1,6 +1,6 @@
 replicaCount: 2
 image:
-  repository: https://hub.docker.com/r/ahmadshehanshah/wateen
+  repository: ahmadshehanshah/wateen
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
 
