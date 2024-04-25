@@ -14,7 +14,7 @@ spec:
     targetRevision: HEAD
     helm:
       valueFiles:
-      - values.yaml
+      - dev-values.yaml
   syncPolicy:
     syncOptions:
     - CreateNamespace=true

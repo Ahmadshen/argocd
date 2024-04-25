@@ -1,4 +1,4 @@
-replicaCount: 2
+replicaCount: 1
 image:
   repository: ahmadshehanshah/wateen
   pullPolicy: IfNotPresent
@@ -24,7 +24,7 @@ serviceAccount:
   name: ""
 service:
   type: ClusterIP
-  port: 3000
+  port: 5173
 ingress:
   enabled: true
 ingressroute:
@@ -39,7 +39,7 @@ ingressroute:
   services:
     name: frontend
     namespace: frontend
-    port: 3000
+    port: 5173
   tls:
     secretName: ""
 resources: {}
