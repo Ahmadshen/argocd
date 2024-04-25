@@ -4,10 +4,10 @@ image:
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
 
-  tag: "0a7905a5ab53679262944050f6cc30cf75b207fd"
-imagePullSecrets:
-  - name: gcr-io
-nameOverride: ""
+  tag: "latest"
+# imagePullSecrets:
+#   - name: gcr-io
+# nameOverride: ""
 fullnameOverride: "frontend"
 serviceAccount:
   # Specifies whether a service account should be created
