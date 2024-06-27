@@ -5,8 +5,8 @@ image:
   # Overrides the image tag whose default is the chart appVersion.
 
   tag: "latest"
-imagePullSecrets:
-  - name: my-dockerhub-secret
+# imagePullSecrets:
+#   - name: my-dockerhub-secret
 # nameOverride: ""
 fullnameOverride: "frontend"
 serviceAccount:
